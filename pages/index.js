@@ -108,7 +108,7 @@ export default function Example() {
                             <Image
                               src={post.imageUrl} 
                               alt=""
-                              className="absolute inset-0 h-full w-full  bg-gray-50 object-cover"
+                              className="absolute inset-0 h-full w-full  bg-gray-50 object-fit"
                            height={500}
                            width={500}
                            />
